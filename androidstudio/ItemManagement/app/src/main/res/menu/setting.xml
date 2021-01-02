@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/leading"
+        android:title="使用引导" />
+    <item
+        android:id="@+id/backgroundsetting"
+        android:title="自定义主题"
+        android:onClick="changeTheme"/>
+    <item
+        android:id="@+id/localdata"
+        android:title="导入本地数据" />
+    <item
+        android:id="@+id/developer"
+        android:title="回馈开发人员" />
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?attr/bgNormalColor" >
+    <EditText
+        android:id="@+id/et_srarch"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:background="#A7C2E7"
+        android:hint="请输入物品名称"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/bn_sure_search"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="确定"         />
+    <Button
+        android:id="@+id/bn_return"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:text="返回"         />
+    <LinearLayout
+        android:id="@+id/linersearch"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ID    物品名称    购买金额    物品类别   使用时间  保质期   购买日期"
+            />
+        <ListView
+            android:id="@+id/searchListView"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+        <Button
+            android:id="@+id/return_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"     />
+    </LinearLayout>
+</LinearLayout>
+

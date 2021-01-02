@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TextItemManager!</string>
+    <string name="app_name">个人物品管理系统</string>
+    <string name="information_write">物品信息修改</string>
+    <string name="button1">电子产品</string>
+    <string name="button2">日用品</string>
+    <string name="box1">1年以内</string>
+    <string name="box2">1-3年</string>
+    <string name="box3">3年以上</string>
+    <string name="myButton">添加物品</string>
+    <string name="spinner">请选择</string>
+    <string name="develop">向开发人员发送建议或意见以及错误反馈</string>
+    <string name="lead">\t\t\t\t\t\t\t此软件为个人物品管理系统，使用方便、页面简洁。\n\t\t\t\t\t\t\t可以选择搜索、添加、选择功能。添加物品时，输入物品的名称、类别、购入时间、购入价格、保质期。添加物品后，便可查看、修改、删除物品信息。\n\t\t\t\t\t\t\t此软件具有一定的智能提醒功能。\n\t\t\t\t\t\t\t此软件可从外部导入以往物品信息。\n\t\t\t\t\t\t\t此软件可自定义背景。\n\t\t\t\t\t\t\t若有意见或建议，可向开发人员发送信息和回馈错误。</string>
+</resources>
